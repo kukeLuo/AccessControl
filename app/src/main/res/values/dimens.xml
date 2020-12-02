@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_round_pic">6dp</dimen>
+    <dimen name="dimen_layout_margin_20">20px</dimen>
+    <dimen name="dimen_time_margin_right">24px</dimen>
+    <dimen name="dimen_layout_margin">30px</dimen>
+    <dimen name="dimen_radius">8px</dimen>
+    <dimen name="dimen_height_scan">536px</dimen>
+    <dimen name="dimen_margintop_scan">264px</dimen>
+
+    <dimen name="item_decoration_title_height">48px</dimen>
+    <dimen name="item_decoration_title_start_margin">16dp</dimen>
+    <dimen name="item_decoration_title_fontsize">24sp</dimen>
+    <dimen name="dimen_user_list_margin">40px</dimen>
+    <dimen name="common_vew_column_padding">2px</dimen>
+    <dimen name="common_vew_raw_padding">2px</dimen>
+    <dimen name="dimen_office_card_textsize">23px</dimen>
+    <dimen name="dimen_office_info_textsize">25px</dimen>
+    <dimen name="dimen_office_password_textsize">22px</dimen>
+</resources>

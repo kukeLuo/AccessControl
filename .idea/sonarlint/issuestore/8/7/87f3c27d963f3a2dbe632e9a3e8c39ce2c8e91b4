@@ -1,0 +1,11 @@
+
+q
+java:S1450"VRemove the "rawData" field and declare it as a local variable in the relevant methods.(¹è÷Ýþÿÿÿÿ
+œ
+java:S1186+"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ŽÓ‹œþÿÿÿÿ
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ù›°¬ÿÿÿÿÿ
+B
+java:S1068"'Remove this unused "TAG" private field.(˜îˆßøÿÿÿÿ
+F
+java:S1068"+Remove this unused "rawData" private field.(¹è÷Ýþÿÿÿÿ

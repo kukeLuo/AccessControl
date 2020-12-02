@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+	<root-path
+		name="brcDownload"
+		path="brcDownload" />
+	<files-path
+		name="brcDownload"
+		path="brcDownload" />
+
+	<cache-path
+		name="brcDownload"
+		path="brcDownload" />
+
+	<external-path
+		name="brcDownload"
+		path="brcDownload" />
+</paths>

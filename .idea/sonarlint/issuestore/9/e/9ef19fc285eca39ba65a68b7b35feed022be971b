@@ -1,0 +1,23 @@
+
+g
+java:S1104"QMake image a static final constant or non-public and provide accessors if needed.(µÙ‘•
+o
+java:S1104"TMake log_time a static final constant or non-public and provide accessors if needed.(™…ú¨şÿÿÿÿ
+m
+java:S1104"WMake productName a static final constant or non-public and provide accessors if needed.(‹Ïš‡
+f
+java:S1104"PMake type a static final constant or non-public and provide accessors if needed.(ûöå©
+p	java:S116"VRename this field "log_content" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ƒäÔúÿÿÿÿ
+h	java:S116"TRename this field "log_title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÇ¸(
+q
+java:S1104"VMake alarm_type a static final constant or non-public and provide accessors if needed.(•ìáİüÿÿÿÿ
+m	java:S116"SRename this field "log_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™…ú¨şÿÿÿÿ
+j
+java:S1104"UMake log_title a static final constant or non-public and provide accessors if needed.(ÆÇ¸(
+r
+java:S1104"WMake log_content a static final constant or non-public and provide accessors if needed.(—ƒäÔúÿÿÿÿ
+g
+java:S1104"QMake level a static final constant or non-public and provide accessors if needed.(Ì–íï
+p
+java:S1104"UMake productId a static final constant or non-public and provide accessors if needed.(ïÕëÿÿÿÿÿ
+o	java:S116"URename this field "alarm_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ìáİüÿÿÿÿ

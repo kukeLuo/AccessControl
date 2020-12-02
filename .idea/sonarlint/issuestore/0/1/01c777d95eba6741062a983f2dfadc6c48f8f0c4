@@ -1,0 +1,12 @@
+
+n
+java:S1104"XMake productModel a static final constant or non-public and provide accessors if needed.(åáÈ›
+q
+java:S1104
+"VMake productKey a static final constant or non-public and provide accessors if needed.(Ù’ãŠùÿÿÿÿ
+g
+java:S1104	"QMake iotId a static final constant or non-public and provide accessors if needed.(×€•ë
+n
+java:S1104"XMake deviceEvents a static final constant or non-public and provide accessors if needed.(ÇÒé“
+
+java:S1319"wThe type of the "deviceEvents" object should be an interface such as "List" rather than the implementation "ArrayList".(ÇÒé“

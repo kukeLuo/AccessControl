@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_152338"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="38px"
+        android:layout_marginLeft="35px"
+        android:gravity="center_vertical"
+        android:text="@string/str_threshold"
+        android:textSize="25sp"
+        android:textColor="@color/color_white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="38px"
+        android:layout_marginLeft="35px"
+        android:gravity="center_vertical"
+        android:text="@string/str_recommend_threshold"
+        android:textSize="17sp"
+        android:textColor="@color/color_white"/>
+    <LinearLayout
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/start_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="35px"
+            android:layout_marginTop="20dp"
+            android:text="0"
+            android:textSize="25sp"
+            android:textColor="@color/color_white" />
+
+        <com.brc.acctrl.view.ThresholdSeekBar
+            android:id="@+id/seekbar"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:focusable="true"
+            android:maxHeight="10dp"
+            android:progressDrawable="@drawable/seekbar_threshold"
+            android:splitTrack="false"
+            android:thumb="@drawable/shape_circle"
+            app:img="@mipmap/seekbar_bg"
+            app:textcolor="#fff"
+            app:textsize="20dp" />
+        <TextView
+            android:id="@+id/end_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="14dp"
+            android:text="100"
+            android:textSize="25sp"
+            android:textColor="@color/color_white" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_hint"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"></View>
+    <Button
+        android:id="@+id/btn_threshold"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/color_152338"
+        android:text="@string/str_confirm"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/color_00A2E6"/>
+</LinearLayout>

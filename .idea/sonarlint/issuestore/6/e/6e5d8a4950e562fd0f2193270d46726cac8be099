@@ -1,0 +1,26 @@
+
+i
+java:S4042q"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(¼·áüÿÿÿÿ
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×İŠÎ
+i
+java:S4042O"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(¨Íü‹şÿÿÿÿ
+\
+java:S2142/"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+>	java:S1089")Either remove or fill this block of code.(”ı¾
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ñ¾•ø
+U
+java:S1118":Add a private constructor to hide the implicit public one.(ÔÙøÿÿÿÿ
+>	java:S108P")Either remove or fill this block of code.(”ı¾
+U	java:S899q";Do something with the "boolean" value returned by "delete".(¼·áüÿÿÿÿ
+U	java:S899O";Do something with the "boolean" value returned by "delete".(¨Íü‹şÿÿÿÿ
+—
+java:S1186""€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úÑ¯¤
+i
+java:S40428"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(½‡ˆÊüÿÿÿÿ
+—
+java:S1186c"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úÑ¯¤
+T
+java:S1155)">Use isEmpty() to check whether the collection is empty or not.(ÖÇÒ
+U	java:S8998";Do something with the "boolean" value returned by "delete".(½‡ˆÊüÿÿÿÿ

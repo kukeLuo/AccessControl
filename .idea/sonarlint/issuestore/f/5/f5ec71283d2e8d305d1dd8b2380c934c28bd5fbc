@@ -1,0 +1,14 @@
+
+P
+java:S1128".Remove this unused import 'android.os.Bundle'.(°şÊóøÿÿÿÿ8úûÔÈá.
+W	java:S110"=This class has 11 parents which is greater than 5 authorized.(ÿ²öÇúÿÿÿÿ
+w
+java:S1450("ZRemove the "gatewayType" field and declare it as a local variable in the relevant methods.(¨ÁÚ›8•š×Èá.
+Z
+java:S1124#"EReorder the modifiers to comply with the Java Language Specification.(ŒˆI
+V
+java:S1128"4Remove this unused import 'butterknife.ButterKnife'.(Ùî²™şÿÿÿÿ8úûÔÈá.
+L
+java:S2696N"6Make the enclosing method "static" or remove this set.(ê‹‘š
+7	java:S131E""Add a default case to this switch.(ºÖ
+V	java:S125M"<This block of commented-out lines of code should be removed.(Ï‹¯Ôÿÿÿÿÿ

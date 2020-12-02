@@ -1,0 +1,90 @@
+
+P
+java:S3400§"9Remove this method and declare a constant for this value.( û·¾
+d
+java:S2184É"ACast one of the operands of this addition operation to a "float".(…‰°ÿÿÿÿÿ8ŞÔ€Êß.
+p
+java:S1104J"UMake soundPool a static final constant or non-public and provide accessors if needed.(Œ©È–úÿÿÿÿ
+M
+java:S3740ê"/Provide the parametrized type for this generic.(Î„ûÜ8ŞÔ€Êß.
+V
+java:S3398×"?Move this method into the anonymous class declared at line 142.(¸áË½
+ˆ
+java:S1319E"rThe type of the "featureIDs" object should be an interface such as "Map" rather than the implementation "HashMap".(æ¯İ¾
+o
+java:S1104d"YMake boldLinePaint a static final constant or non-public and provide accessors if needed.(Ì¯ç§
+r
+java:S1104S"\Make isAlwaysOpenDoor a static final constant or non-public and provide accessors if needed.(äŠœ
+n
+java:S1104H"XMake executorPool a static final constant or non-public and provide accessors if needed.(´ş—
+W	java:S125›"<This block of commented-out lines of code should be removed.(İ™ìûÿÿÿÿ
+K
+java:S1066È"/Merge this if statement with the enclosing one.(ç˜Üùÿÿÿÿ
+k	java:S116O"WRename this field "DoorOpenTime" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÿg
+u
+java:S1104F"ZMake dbGroupFaceCnt a static final constant or non-public and provide accessors if needed.(˜•Ãìûÿÿÿÿ
+D
+java:S1604¬"(Make this anonymous inner class a lambda(˜ã¯şÿÿÿÿ
+l
+java:S1104E"VMake featureIDs a static final constant or non-public and provide accessors if needed.(æ¯İ¾
+i
+java:S1104K"SMake soundId a static final constant or non-public and provide accessors if needed.(¢Û¿Æ
+u
+java:S1104C"ZMake faceSDKManager a static final constant or non-public and provide accessors if needed.(¸Á¬Œùÿÿÿÿ
+D
+java:S1604¶"(Make this anonymous inner class a lambda(˜ã¯şÿÿÿÿ
+p
+java:S1104P"ZMake canShowFailDlg a static final constant or non-public and provide accessors if needed.(¯èÎî
+W	java:S125¾"<This block of commented-out lines of code should be removed.(õ˜Óáÿÿÿÿÿ
+D
+java:S1604¡"(Make this anonymous inner class a lambda(˜ã¯şÿÿÿÿ
+Y	java:S110?"=This class has 14 parents which is greater than 5 authorized.(µ‚Õî8ŞÔ€Êß.
+d
+java:S2184Ê"ACast one of the operands of this addition operation to a "float".(û¯ıÿÿÿÿ8ŞÔ€Êß.
+A
+java:S1659d"+Declare "thinLinePaint" on a separate line.(Ì¯ç§
+?	java:S108è")Either remove or fill this block of code.(”ı¾
+˜
+java:S1186í"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¥®‚
+o
+java:S1104d"YMake thinLinePaint a static final constant or non-public and provide accessors if needed.(Ì¯ç§
+r
+java:S1104R"WMake faceInitSuc a static final constant or non-public and provide accessors if needed.(ôØÏùÿÿÿÿ
+p
+java:S1104B"UMake matchName a static final constant or non-public and provide accessors if needed.(ÖÀãİúÿÿÿÿ
+Y
+java:S1172ï"=Remove this unused method parameter "frameAvailableListener".(»éøùÿÿÿÿ
+p
+java:S1450e"ZRemove the "thinLineWdh" field and declare it as a local variable in the relevant methods.(£´›¼
+q
+java:S1104A"VMake isMatching a static final constant or non-public and provide accessors if needed.(¡Œ’×üÿÿÿÿ
+˜
+java:S1186ğ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úÑ¯¤
+p
+java:S1104@"ZMake cameraRotation a static final constant or non-public and provide accessors if needed.(úşŸ¾
+v
+java:S1104"ZMake settingHandler a static final constant or non-public and provide accessors if needed.(ÿÇª—şÿÿÿÿ
+p
+java:S1450e"ZRemove the "boldLineWdh" field and declare it as a local variable in the relevant methods.(£´›¼
+?
+java:S1604»"(Make this anonymous inner class a lambda(ªÇÖ
+?
+java:S1604ò"(Make this anonymous inner class a lambda(ÉãÃ®
+q
+java:S1104M"[Make hasDetectedFace a static final constant or non-public and provide accessors if needed.(ÖªÀö
+W	java:S125Ø"<This block of commented-out lines of code should be removed.(ÃÅŸüÿÿÿÿ
+?
+java:S1659e")Declare "thinLineWdh" on a separate line.(£´›¼
+H
+java:S1874†"1Remove this use of "SoundPool"; it is deprecated.(äèĞ†
+
+java:S1186Õ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ˆ”Šäûÿÿÿÿ
+n
+java:S1104I"XMake matchGroupId a static final constant or non-public and provide accessors if needed.(û¸½ô
+t
+java:S1104N"YMake canDetectFace a static final constant or non-public and provide accessors if needed.(¢†ä£ûÿÿÿÿ
+v
+java:S1104y"[Make settingClickCnt a static final constant or non-public and provide accessors if needed.(Ô”‘ğûÿÿÿÿ
+R	java:S125¨"<This block of commented-out lines of code should be removed.(„É”‰
+m
+java:S1104O"XMake DoorOpenTime a static final constant or non-public and provide accessors if needed.(áÿg

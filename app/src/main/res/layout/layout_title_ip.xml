@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:id="@+id/layout_content"
+                android:layout_height="120px">
+
+    <ImageView
+        android:id="@+id/img_check"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="28px"
+        android:background="@drawable/drawable_rb_img"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/img_check"
+        android:textColor="@drawable/text_color_ip"
+        android:textSize="34px"
+        tools:text="1111"/>
+
+    <LinearLayout
+        android:id="@+id/layout_ip_addr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_ip_1"
+            style="@style/style_ip_edit"
+            tools:text="0"/>
+
+        <TextView
+            style="@style/style_ip_text_point"/>
+
+        <EditText
+            android:id="@+id/et_ip_2"
+            style="@style/style_ip_edit"
+            tools:text="0"/>
+
+        <TextView
+            style="@style/style_ip_text_point"/>
+
+        <EditText
+            android:id="@+id/et_ip_3"
+            style="@style/style_ip_edit"
+            tools:text="0"/>
+
+        <TextView
+            style="@style/style_ip_text_point"/>
+
+        <EditText
+            android:id="@+id/et_ip_4"
+            style="@style/style_ip_edit"
+            tools:text="0"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_btm_img"
+        android:layout_width="wrap_content"
+        android:layout_height="1px"
+        android:layout_alignStart="@id/img_check"
+        android:layout_alignLeft="@id/tv_title"
+        android:layout_alignEnd="@id/tv_title"
+        android:layout_alignParentBottom="true"
+        android:background="#152338"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignLeft="@id/tv_title"
+        android:layout_alignParentBottom="true"
+        android:background="#152338"/>
+</RelativeLayout>

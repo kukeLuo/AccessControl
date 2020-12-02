@@ -1,0 +1,33 @@
+
+W
+java:S1118":Add a private constructor to hide the implicit public one.(à¡·¶8ÓÿÍıÜ.
+c
+java:S2184H"ACast one of the operands of this addition operation to a "float".(ïàÇïúÿÿÿÿ8şÛ²ùÜ.
+]
+java:S2184G"@Cast one of the operands of this integer division to a "double".(ê¢Ã«8şÛ²ùÜ.
+\
+java:S21846"ACast one of the operands of this addition operation to a "float".(äÄô•ıÿÿÿÿ
+[
+java:S1128"9Remove this unused import 'com.deepglint.hri.log.Logger'.(ıë™ûÿÿÿÿ8‚º³ùÜ.
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÁÂ»ıÿÿÿÿ
+^
+java:S1126K"AReplace this if-then-else statement by a single return statement.(·ÅÛî8‚º³ùÜ.
+b
+java:S2184I"@Cast one of the operands of this integer division to a "double".(Ÿõˆ‰üÿÿÿÿ8şÛ²ùÜ.
+\
+java:S1126`"AReplace this if-then-else statement by a single return statement.(·¢Ãíûÿÿÿÿ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(–ìğ«
+\
+java:S21847"ACast one of the operands of this addition operation to a "float".(ææïÎşÿÿÿÿ
+c
+java:S2184J"ACast one of the operands of this addition operation to a "float".(³™³šÿÿÿÿÿ8şÛ²ùÜ.
+W
+java:S2184-"ACast one of the operands of this addition operation to a "float".(Úó—•
+b
+java:S2184I"@Cast one of the operands of this integer division to a "double".(Ÿõˆ‰üÿÿÿÿ8şÛ²ùÜ.
+\
+java:S2184."ACast one of the operands of this addition operation to a "float".(›„¢üÿÿÿÿ
+]
+java:S2184G"@Cast one of the operands of this integer division to a "double".(ê¢Ã«8şÛ²ùÜ.

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mode_machine">
+        <item>会议模式</item>
+        <item>VIP门禁模式</item>
+        <item>门禁模式</item>
+        <item>水牌模式</item>
+    </array>
+
+    <array name="arr_record_history_title">
+        <item>人脸识别</item>
+        <item>IC卡</item>
+        <item>VIP门禁模式</item>
+    </array>
+</resources>

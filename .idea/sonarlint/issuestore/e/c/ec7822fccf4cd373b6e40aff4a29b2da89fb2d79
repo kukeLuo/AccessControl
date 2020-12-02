@@ -1,0 +1,77 @@
+
+Y	java:S110B"=This class has 15 parents which is greater than 5 authorized.(ÙŞó±8®ÌøïÙ.
+}
+java:S1104J"`Make cameraRGBImageSource a static final constant or non-public and provide accessors if needed.(»¤Õ’8®ÌøïÙ.
+P
+java:S1135„"2Complete the task associated to this TODO comment.(¶û¨³8®ÌøïÙ.
+T
+java:S1128">Remove this unused import 'com.brc.acctrl.bean.UploadFailRsp'.(“æ†
+Ÿ
+java:S1186Ô"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úÑ¯¤8®ÌøïÙ.
+^	java:S125š"<This block of commented-out lines of code should be removed.(èŒÜøÿÿÿÿ8®ÌøïÙ.
+^
+java:S1128 "CRemove this unused import 'com.brc.acctrl.retrofit.RetrofitConfig'.(„÷™ğúÿÿÿÿ
+J
+java:S1604T"(Make this anonymous inner class a lambda(Ä»…ìúÿÿÿÿ8®ÌøïÙ.
+n
+java:S1301ì"KReplace this "switch" statement by "if" statements to increase readability.(ıŞ³‹ùÿÿÿÿ8®ÌøïÙ.
+D
+java:S1172ë"&Remove these unused method parameters.(Š÷ç›8®ÌøïÙ.
+u
+java:S1104L"XMake lastRGBFrame a static final constant or non-public and provide accessors if needed.(Ø®ñ8®ÌøïÙ.
+W	java:S107”"<Method has 8 parameters, which is greater than 7 authorized.(åæì¯øÿÿÿÿ
+o
+java:S2445ƒ"R"lastRGBFrame" is not "private final", and should not be used for synchronization.(î¯¯48®ÌøïÙ.
+F
+java:S1604›"(Make this anonymous inner class a lambda(ä¶Û¯8®ÌøïÙ.
+K
+java:S1604Ø"(Make this anonymous inner class a lambda(ÁİÇ½ùÿÿÿÿ8®ÌøïÙ.
+€
+java:S1104E"^Make baseRGBPreviewView a static final constant or non-public and provide accessors if needed.(ÓëƒÛşÿÿÿÿ8®ÌøïÙ.
+N
+java:S1128"8Remove this unused import 'com.brc.acctrl.bean.BaseRsp'.(ò»¼â
+F	java:S108—")Either remove or fill this block of code.(”ı¾8®ÌøïÙ.
+T
+java:S11289"2Remove this unused import 'io.reactivex.Observer'.(ÛËÿÅÿÿÿÿÿ8®ÌøïÙ.
+v
+java:S1104G"TMake bgrFrame a static final constant or non-public and provide accessors if needed.(ºÆÅªûÿÿÿÿ8®ÌøïÙ.
+˜
+java:S1186¶"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úÑ¯¤
+{
+java:S1104C"YMake baseVideoView a static final constant or non-public and provide accessors if needed.(³÷¤öÿÿÿÿÿ8®ÌøïÙ.
+R
+java:S1128#"<Remove this unused import 'com.brc.acctrl.utils.CommonUtil'.(¶ËÌñ
+}
+java:S1104H"`Make maxRGBDetectFaceInfo a static final constant or non-public and provide accessors if needed.(áÈ¸¶8®ÌøïÙ.
+D	java:S131ì""Add a default case to this switch.(ıŞ³‹ùÿÿÿÿ8®ÌøïÙ.
+Y	java:S125"<This block of commented-out lines of code should be removed.(ù˜Ó›8¹¡ €İ.
+]
+java:S3398¶"?Move this method into the anonymous class declared at line 252.(ÄÙØ–8®ÌøïÙ.
+W	java:S125­"<This block of commented-out lines of code should be removed.(»¨éÇûÿÿÿÿ
+p
+java:S3776ë"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Š÷ç›8®ÌøïÙ.
+X
+java:S1128"=Remove this unused import 'com.brc.acctrl.bean.RspImagePath'.(²‰¦şÿÿÿÿ
+K
+java:S1604ü"(Make this anonymous inner class a lambda(ß¶ñÑûÿÿÿÿ8®ÌøïÙ.
+v
+java:S1104N"YMake rgbPreviewWdh a static final constant or non-public and provide accessors if needed.(–§œº8®ÌøïÙ.
+^	java:S125¨"<This block of commented-out lines of code should be removed.(²½­Şşÿÿÿÿ8®ÌøïÙ.
+z
+java:S1104F"^Make baseRGBTextureView a static final constant or non-public and provide accessors if needed.(Íšü8®ÌøïÙ.
+K
+java:S1604¦"(Make this anonymous inner class a lambda(˜ã¯şÿÿÿÿ8®ÌøïÙ.
+‚
+java:S1104K"eMake frameRGBAvailableListener a static final constant or non-public and provide accessors if needed.(„§™ù8®ÌøïÙ.
+D
+java:S1604‡"(Make this anonymous inner class a lambda(¶áøÿÿÿÿ
+Y	java:S125ı"<This block of commented-out lines of code should be removed.(·§£Ø8®ÌøïÙ.
+y
+java:S1104I"WMake mRGBTracker a static final constant or non-public and provide accessors if needed.(‘íÔµûÿÿÿÿ8®ÌøïÙ.
+K
+java:S1604ì"(Make this anonymous inner class a lambda(˜ã¯şÿÿÿÿ8®ÌøïÙ.
+^	java:S125ˆ"<This block of commented-out lines of code should be removed.(½ŸĞ®ÿÿÿÿÿ8Ÿ›úıÜ.
+S
+java:S1128">Remove this unused import 'com.brc.acctrl.bean.UploadFailReq'.(Ñ¯¬,
+K
+java:S1604î"(Make this anonymous inner class a lambda(˜ã¯şÿÿÿÿ8®ÌøïÙ.

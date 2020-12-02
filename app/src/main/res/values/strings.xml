@@ -1,0 +1,196 @@
+<resources>
+    <string name="app_name">三合一门禁系统</string>
+    <string name="str_sdk_init_suc">人脸SDK初始化成功</string>
+    <string name="str_sdk_init_fail">人脸SDK初始化失败，请检查激活码有效日期</string>
+    <string name="str_sdk_init_network_fail">人脸SDK初始化失败，请检查网络状态</string>
+    <string name="str_sdk_init_fail_model">人脸SDK初始化失败，请检查模型</string>
+
+    <string name="str_check_face_error_range_too_large">人脸角度太大，请正对屏幕</string>
+    <string name="str_check_face_error_bad_quality">人脸质量过低</string>
+    <string name="str_check_face_extract_feature">开始提取特征</string>
+
+    <string name="str_room_space_cnt">可容纳%1$d人</string>
+    <string name="str_room_available">会议室空闲\n可预定</string>
+    <string name="str_room_stop">暂停服务</string>
+    <string name="str_scan_match_user">%1$s\n签到成功</string>
+    <string name="str_scan_unmatch_user">认证不通过\n请重试</string>
+    <string name="str_setting_pwd_title">密码开门</string>
+
+    <string name="str_setting_pwd_error">密码错误，请重新输入</string>
+    <string name="str_door_open_pwd">密码开锁成功！</string>
+    <string name="str_door_no_match_face">认证不通过\n请重试</string>
+    <string name="str_door_open_face">%1$s\n识别成功</string>
+    <string name="str_recognition_suc">识别成功</string>
+    <string name="str_face_recognition_sus">您好，%1$s!</string>
+    <string name="str_recognition_sus_hide">您好，请通过</string>
+    <string name="str_group_name">蓝光地产集团</string>
+    <string name="str_door_open_card">刷卡成功\n请通过</string>
+    <string name="str_confirm">确定</string>
+    <string name="str_cancel">取消</string>
+    <string name="str_office_door_pwd_error">抱歉，您已多次输入错误\n请联系管理人员\n400-200-416</string>
+    <string name="str_office_door_pwd_error_cnt">已 %1$d 次输入错误\n还能尝试 %2$d 次</string>
+    <string name="str_office_door_pwd_error_tel">400-200-416</string>
+    <string name="str_error_network">网络出错，请重试</string>
+    <string name="str_error_no_network">请检查网络是否已连接</string>
+    <string name="str_error_network_server">请检查网络配置是否正确</string>
+    <string name="loading_prompt">正在加载中...</string>
+    <string name="str_loading_face_action">人脸库正在更新，请稍后...</string>
+
+    <string name="str_update_title">软件更新</string>
+    <string name="str_update_new">可更新软件版本</string>
+    <string name="str_update_lateast">当前软件为最新版本</string>
+    <string name="str_update_current">当前软件版本</string>
+    <string name="str_update_action">立即更新</string>
+    <string name="str_update_action_dling">正在更新</string>
+    <string name="str_update_action_dled">下载完成，点击安装</string>
+    <string name="str_update_action_err">下载出错，请重试</string>
+
+    <string name="str_setting_enter_pwd">输入密码</string>
+    <string name="str_setting_enter_pwd_hint">请输入密码</string>
+    <string name="str_input_pwd_hint">输入4-8位数字</string>
+    <string name="str_chg_mode">切换</string>
+    <string name="str_identification_log">识别日志</string>
+    <string name="str_configuration">参数配置</string>
+    <string name="str_chg_mode_title">切换模式</string>
+    <string name="str_setting_threshold">人脸比对阀值</string>
+    <string name="str_setting_voice">声音</string>
+    <string name="str_threshold">比对阀值</string>
+    <string name="str_recommend_threshold">推荐阀值 75~90</string>
+    <string name="str_setting_user_list">人员列表</string>
+    <string name="str_setting_record">通行记录</string>
+    <string name="str_setting_title">设置</string>
+    <string name="str_similarity_degree">相似度</string>
+    <string name="str_setting_open_door">测试门禁开门</string>
+
+    <string name="str_setting_about">关于本机</string>
+    <string name="str_setting_network_config">网络配置</string>
+    <string name="str_setting_chg_pwd">修改密码</string>
+    <string name="str_setting_forget_pwd">忘记密码</string>
+    <string name="str_setting_door_open_time">继电器打开时间</string>
+    <string name="str_setting_door_open_time_dlgtitle">请选择继电器打开时间(秒)</string>
+    <string name="str_setting_door_open_time_data">%1$d秒</string>
+    <string name="str_setting_update">软件更新</string>
+    <string name="str_setting_delete_all">删除人脸库</string>
+    <string name="str_setting_delete_title">删除</string>
+    <string name="str_setting_delete_content">确认要清空人脸库吗?</string>
+    <string name="str_setting_reboot">重启系统</string>
+    <string name="str_setting_reboot_timely">定时重启系统(04:00)</string>
+    <string name="str_setting_fill_in_light">补光灯</string>
+    <string name="str_setting_regular_opening">定时常开</string>
+    <string name="str_setting_timing_identification_on">定时识别开</string>
+    <string name="str_setting_long_guan">常关</string>
+    <string name="str_setting_upload_fail">上传失败人脸</string>
+    <string name="str_setting_enable_livecheck">活体检测开关</string>
+    <string name="str_setting_display_name">识别回显开关</string>
+    <string name="str_setting_enable_toplight">顶灯打开时间</string>
+    <string name="str_setting_enable_toplight_start">开始时间</string>
+    <string name="str_setting_enable_toplight_end">结束时间</string>
+    <string name="str_setting_enable_default_time">00:00:00</string>
+
+    <string name="str_save">保存</string>
+    <string name="str_name">名称</string>
+    <string name="str_name_hint">输入名称</string>
+    <string name="str_remark">备注</string>
+    <string name="str_remark_hint">输入备注</string>
+    <string name="str_machine_mac_addr">网口MAC地址</string>
+    <string name="str_machine_light">当前感光值</string>
+
+    <string name="str_title_ip">IP地址</string>
+    <string name="str_title_server">服务器</string>
+    <string name="str_server_addr_title">服务器地址</string>
+    <string name="str_server_addr_hint">输入服务器地址</string>
+    <string name="str_server_port_title">端口号</string>
+    <string name="str_server_port_hint">输入端口号</string>
+    <string name="str_server_mqtt_addr_title">mqtt服务器地址</string>
+    <string name="str_server_mqtt_addr_hint">输入mqtt服务器地址</string>
+    <string name="str_server_mqtt_port_title">mqtt端口号</string>
+    <string name="str_server_mqtt_port_hint">输入mqtt端口号</string>
+    <string name="str_server_protocal_http">http</string>
+    <string name="str_server_protocal_https">https</string>
+    <string name="str_server_mqtt_protocal_tcp">tcp</string>
+    <string name="str_server_mqtt_protocal_ssl">ssl</string>
+
+    <string name="digitsAndAlphet">qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM1234567890</string>
+    <string name="str_err_server_addr_port">请输入正确的服务器地址和端口号</string>
+    <string name="str_err_server_mqtt_addr_port">请输入正确的mqtt服务器地址和端口号</string>
+
+    <string name="str_pwd_ori">旧密码</string>
+    <string name="str_pwd_ori_hint">输入旧密码</string>
+    <string name="str_pwd_new">新密码</string>
+    <string name="str_pwd_new_hint">输入新密码</string>
+    <string name="str_pwd_new_confirm">验证新密码</string>
+    <string name="str_pwd_new_confirm_hint">再次输入新密码</string>
+    <string name="str_pwd_rule">输入4-8位数字</string>
+    <string name="str_pwd_validate_error">请按照正确的规则设定密码</string>
+    <string name="str_pwd_input_ori_err">请输入正确的原始密码</string>
+    <string name="str_pwd_input_new">请输入新密码</string>
+    <string name="str_pwd_input_new_confirm">请输入确认密码</string>
+    <string name="str_pwd_new_match_err">请确保输入的2次新密码相同</string>
+    <string name="str_pwd_chg_suc">密码修改成功</string>
+
+    <string name="str_setting_ip_title">IP地址</string>
+
+    <string name="str_meeting_author_title">发起者: %1$s</string>
+    <string name="str_meeting_time">%1$s - %2$s</string>
+    <string name="str_meeting_time_format">%1$02d:%2$02d</string>
+
+    <string name="str_base_info_title">概要信息</string>
+    <string name="str_base_info_input_title">标题</string>
+    <string name="str_base_info_input_title_hint">输入标题</string>
+    <string name="str_base_info_input_title1">副标题1</string>
+    <string name="str_base_info_input_title1_hint">输入副标题1</string>
+    <string name="str_base_info_input_title2">副标题2</string>
+    <string name="str_base_info_input_title2_hint">输入副标题2</string>
+    <string name="str_shuipai_info_input_title">领导姓名</string>
+    <string name="str_shuipai_info_input_title_hint">输入领导姓名</string>
+    <string name="str_shuipai_info_input_title1">所属公司</string>
+    <string name="str_shuipai_info_input_title1_hint">输入所属公司</string>
+    <string name="str_shuipai_info_input_title2">职位、级别</string>
+    <string name="str_shuipai_info_input_title2_hint">输入职位、级别</string>
+    <string name="str_base_info_input_err">请先输入%1$s</string>
+    <string name="str_user_list_title">人员列表</string>
+
+    <string name="str_point">.</string>
+    <string name="str_ip_addr_err">请输入合法的格式</string>
+
+    <string name="str_ip_dynamic">动态地址</string>
+    <string name="str_ip_static">静态地址</string>
+    <string name="str_ip_config_manual">手动配置IP</string>
+    <string name="str_ip_config_gateway">网关</string>
+    <string name="str_ip_config_mask">子网掩码</string>
+
+    <string name="str_mode_default_title">设备名称</string>
+    <string name="str_mode_default_desc">标题一</string>
+    <string name="str_mode_default_descmore">标题二</string>
+
+    <string name="str_dl_progress">下载 %1$d %%</string>
+    <string name="str_check_network_ok">请确认网络连接是否正常</string>
+    <string name="str_reboot_after_3s">设备将在3s后重启</string>
+    <string name="str_http_protocol_type">服务器类型</string>
+    <string name="str_mqtt_protocol_type">mqtt服务器类型</string>
+    <string name="str_err_device_name">请先设置设备名称</string>
+    <string name="str_err_device_server">请先设置设备服务器地址</string>
+    <string name="str_server_release_title">生产环境:</string>
+    <string name="str_server_sit_title">SIT环境:</string>
+    <string name="str_server_gateway_title">网关环境:</string>
+    <string name="str_server_config_content">服务器地址 %1$s\nmqtt服务器 %2$s</string>
+    <string name="str_search_name_hint">请输入要查找的人</string>
+
+    <string name="str_meeting_doing">正在会议中...</string>
+    <string name="str_room_nomeeting">空闲中</string>
+    <string name="str_filter_cnt">共 %1$d 人</string>
+
+    <string name="str_card_area">刷卡区</string>
+    <string name="str_face_reg_suc">识别成功</string>
+    <string name="str_face_reg_err">人脸识别错误</string>
+    <string name="str_door_keep_open">门常开</string>
+    <string name="str_face_reg_err_door">识别失败</string>
+    <string name="str_face_reg_suc_title">您好，%1$s!</string>
+    <string name="str_retry">请调整位置后重试</string>
+    <string name="str_weather_temp">%1$d℃~%2$d℃</string>
+
+    <string name="str_pm_good">优</string>
+    <string name="str_pm_normal">良</string>
+    <string name="str_pm_bad">差</string>
+    <string name="str_try_to_del_user">确认要删除 %1$s 用户?</string>
+</resources>

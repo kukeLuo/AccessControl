@@ -1,0 +1,32 @@
+
+W
+java:S1068("5Remove this unused "liveBgrTrackingID" private field.(ˆ¦®¾ıÿÿÿÿ8ê„§İ.
+x
+java:S1450#"[Remove the "irPreviewWdh" field and declare it as a local variable in the relevant methods.(àŸï…8Ú ó€İ.
+J
+java:S1604q"(Make this anonymous inner class a lambda(¬Ä‹îüÿÿÿÿ8…ÇøïÙ.
+^	java:S125€"<This block of commented-out lines of code should be removed.(»İÄàÿÿÿÿÿ8½½íıÜ.
+[
+java:S1155l">Use isEmpty() to check whether the collection is empty or not.(ĞÈ‘8…ÇøïÙ.
+E
+java:S1604W"(Make this anonymous inner class a lambda(Ô‚Òş8…ÇøïÙ.
+^	java:S125¦"<This block of commented-out lines of code should be removed.(Ì½ãòüÿÿÿÿ8ê„§İ.
+Y	java:S125—"<This block of commented-out lines of code should be removed.(û¬òÁ8çÿ¸İ.
+F	java:S108¼")Either remove or fill this block of code.(”ı¾8…ÇøïÙ.
+L
+java:S1066/"/Merge this if statement with the enclosing one.(ëÁ­À8…ÇøïÙ.
+P
+java:S1659%".Declare "isIrStartCapture" on a separate line.(«Ûô×úÿÿÿÿ8…ÇøïÙ.
+W	java:S125Û"<This block of commented-out lines of code should be removed.(Šå–Íûÿÿÿÿ
+Q
+java:S1068'"/Remove this unused "bgrFaceInfo" private field.(ÌÒĞŸúÿÿÿÿ8µ³Ëİ.
+]
+java:S3398"?Move this method into the anonymous class declared at line 113.(ï›Ú«8…ÇøïÙ.
+n
+java:S2445‚"Q"lastIRFrame" is not "private final", and should not be used for synchronization.(Öşƒm8…ÇøïÙ.
+^	java:S125¢"<This block of commented-out lines of code should be removed.(½Î†üûÿÿÿÿ8Ú ó€İ.
+^	java:S110"=This class has 16 parents which is greater than 5 authorized.(ş¼¶Ÿûÿÿÿÿ8…ÇøïÙ.
+]	java:S1254"<This block of commented-out lines of code should be removed.(Ñš‹Çùÿÿÿÿ8¸ô÷ıÜ.
+Y	java:S125ç"<This block of commented-out lines of code should be removed.(ƒÒë»8³ïÿÅá.
+H
+java:S1068$"&Remove this unused "es" private field.(¡¢“şÿÿÿÿ8³ïÿÅá.

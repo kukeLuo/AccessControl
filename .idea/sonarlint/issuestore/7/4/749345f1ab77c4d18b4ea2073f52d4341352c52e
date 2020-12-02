@@ -1,0 +1,16 @@
+
+g
+java:S1104	"QMake iotId a static final constant or non-public and provide accessors if needed.(×€•ë
+q
+java:S1104
+"VMake productKey a static final constant or non-public and provide accessors if needed.(Ù’ãŠùÿÿÿÿ
+n
+java:S1104"XMake productModel a static final constant or non-public and provide accessors if needed.(åáÈ›
+m
+java:S1104"WMake productName a static final constant or non-public and provide accessors if needed.(‹Ïš‡
+n
+java:S1104"SMake version a static final constant or non-public and provide accessors if needed.(žñôýþÿÿÿÿ
+n
+java:S1104"SMake channel a static final constant or non-public and provide accessors if needed.(ËÛ³Îúÿÿÿÿ
+m
+java:S1104"RMake status a static final constant or non-public and provide accessors if needed.(¥žß®üÿÿÿÿ

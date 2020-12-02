@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    >
+
+    <RelativeLayout
+        android:id="@+id/layout_head"
+        android:layout_width="match_parent"
+        android:layout_height="180px"
+        android:background="#152338">
+
+        <ImageView
+            android:id="@+id/img_back"
+            style="@style/style_top_back"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/str_title_server"
+            android:textColor="@color/color_white"
+            android:textSize="48px"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="40px"
+            android:text="@string/str_save"
+            android:textColor="@color/color_white"
+            android:textSize="34px"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_head"
+        android:background="#0E1622"
+        android:divider="@drawable/divider_linearlayout"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dimen_layout_margin"
+        android:paddingTop="20px"
+        android:paddingRight="@dimen/dimen_layout_margin"
+        android:showDividers="middle">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/str_http_protocol_type"
+                android:textColor="@color/color_white"
+                android:textSize="34px"/>
+
+            <TextView
+                android:id="@+id/text_mode_http"
+                style="@style/style_text_server_type_mode"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/str_server_protocal_http"
+                />
+
+            <TextView
+                android:id="@+id/text_mode_https"
+                style="@style/style_text_server_type_mode"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="40px"
+                android:layout_toLeftOf="@id/text_mode_http"
+                android:text="@string/str_server_protocal_https"
+                />
+        </RelativeLayout>
+
+        <com.brc.acctrl.view.CommonEditView
+            android:id="@+id/layout_server_addr"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            app:tagHint="@string/str_server_addr_hint"
+            app:tagTitle="@string/str_server_addr_title"/>
+
+        <com.brc.acctrl.view.CommonEditView
+            android:id="@+id/layout_server_port"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            app:tagHint="@string/str_server_port_hint"
+            app:tagLength="5"
+            app:tagTitle="@string/str_server_port_title"/>
+
+        <TextView
+            android:id="@+id/tv_http_server"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="10px"
+            android:textColor="@color/color_hint"
+            android:textSize="24px"
+            tools:text="http://www.www.com"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/str_mqtt_protocol_type"
+                android:textColor="@color/color_white"
+                android:textSize="34px"/>
+
+            <TextView
+                android:id="@+id/text_mode_tcp"
+                style="@style/style_text_server_type_mode"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/str_server_mqtt_protocal_tcp"
+                />
+
+            <TextView
+                android:id="@+id/text_mode_ssl"
+                style="@style/style_text_server_type_mode"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="40px"
+                android:layout_toLeftOf="@id/text_mode_tcp"
+                android:text="@string/str_server_mqtt_protocal_ssl"
+                />
+        </RelativeLayout>
+
+        <com.brc.acctrl.view.CommonEditView
+            android:id="@+id/layout_server_mqtt_addr"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            app:tagHint="@string/str_server_mqtt_addr_hint"
+            app:tagTitle="@string/str_server_mqtt_addr_title"/>
+
+        <com.brc.acctrl.view.CommonEditView
+            android:id="@+id/layout_server_mqtt_port"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            app:tagHint="@string/str_server_mqtt_port_hint"
+            app:tagLength="5"
+            app:tagTitle="@string/str_server_mqtt_port_title"/>
+
+        <TextView
+            android:id="@+id/tv_mqtt_server"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="10px"
+            android:textColor="@color/color_hint"
+            android:textSize="24px"
+            tools:text="http://www.www.com"/>
+
+    </LinearLayout>
+</RelativeLayout>

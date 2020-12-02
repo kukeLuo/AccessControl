@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="520px"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_pwd_err_dlg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_error_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:lineSpacingMultiplier="1.3"
+        android:paddingLeft="80px"
+        android:paddingTop="50px"
+        android:paddingRight="80px"
+        android:paddingBottom="40px"
+        android:textColor="@color/color_white"
+        android:textSize="32px"
+        tools:text="@string/str_try_to_del_user" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tv_confirm"
+            android:layout_width="180px"
+            android:layout_height="90px"
+            android:background="@drawable/bg_dlg_confirm"
+            android:gravity="center"
+            android:text="@string/str_confirm"
+            android:textColor="@color/color_white"
+            android:textSize="32px" />
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="180px"
+            android:layout_height="90px"
+            android:layout_marginLeft="40px"
+            android:background="@drawable/bg_dlg_confirm"
+            android:gravity="center"
+            android:text="@string/str_cancel"
+            android:textColor="@color/color_white"
+            android:textSize="32px" />
+    </LinearLayout>
+</LinearLayout>

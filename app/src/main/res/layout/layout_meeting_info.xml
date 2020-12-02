@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="146px"
+    android:background="@drawable/bg_meeting_info"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="30px"
+        android:paddingRight="30px">
+
+        <TextView
+            android:id="@+id/tv_meeting_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:textColor="@color/color_white"
+            android:textSize="24px"
+            tools:text="2222" />
+
+        <TextView
+            android:id="@+id/tv_meeting_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10px"
+            android:textColor="@color/color_white"
+            android:textSize="40px"
+            android:textStyle="bold"
+            tools:text="14:00 - 15:00" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="30px"
+        android:paddingRight="30px">
+
+        <TextView
+            android:id="@+id/tv_meeting_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:textColor="@color/color_white"
+            android:textSize="30px"
+            tools:text="2222" />
+
+        <TextView
+            android:id="@+id/tv_meeting_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:textColor="@color/color_white"
+            android:textSize="24px"
+            tools:text="2222" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

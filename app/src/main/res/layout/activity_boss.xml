@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="40px"
+    android:paddingTop="20px"
+    tools:background="#000000">
+
+    <TextView
+        android:id="@+id/tv_err"
+        tools:text="2019/12/03 12:12"
+        style="@style/style_network_err" />
+
+    <TextView
+        android:id="@+id/tv_datetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dimen_time_margin_right"
+        android:gravity="right"
+        android:textColor="@color/color_white"
+        android:textSize="24px"
+        tools:text="2019/12/03 12:12"/>
+
+    <TextView
+        android:id="@+id/tv_room_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="111px"
+        android:textColor="@color/color_white"
+        android:textSize="64px"
+        android:textStyle="bold"
+        tools:text="CTO办公室"/>
+
+    <TextView
+        android:id="@+id/tv_company_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200px"
+        android:textColor="@color/color_white"
+        android:textSize="36px"
+        tools:text="蓝光地产集团"/>
+
+    <FrameLayout
+        android:id="@+id/layout_boss_office_status"
+        android:layout_width="match_parent"
+        android:layout_height="410px"
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:layout_marginTop="350px"
+        >
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_room_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_boss_office_status"
+        android:layout_marginTop="60px"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_scan_boss_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_white"
+            android:textSize="64px"
+            android:textStyle="bold"
+            tools:text="Daniel Wu"
+            />
+
+        <TextView
+            android:id="@+id/tv_scan_boss_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:textColor="@color/color_white"
+            android:textSize="36px"
+            tools:text="互联网信息中心CTO"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_setting"
+        style="@style/style_setting"/>
+
+    <ImageView
+        android:id="@+id/img_enter_pwd"
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="40px"
+        android:layout_marginBottom="40px"
+        android:src="@drawable/icon_enter_pwd"/>
+</RelativeLayout>

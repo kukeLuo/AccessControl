@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_meeting_no"
+    android:layout_width="602px"
+    android:layout_height="602px"
+    android:background="@drawable/bg_meeting_no"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_available_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.2"
+        android:text="@string/str_room_available"
+        android:textColor="#76C7FF"
+        android:textSize="44px"
+        android:textStyle="bold" />
+    <View
+        android:layout_width="310px"
+        android:layout_height="1px"
+        android:layout_marginTop="13px"
+        android:background="@drawable/divider_linearlayout"/>
+    <ImageView
+        android:layout_width="220px"
+        android:layout_height="86px"
+        android:layout_marginTop="25px"
+        android:src="@drawable/icon_thirty"/>
+</LinearLayout>

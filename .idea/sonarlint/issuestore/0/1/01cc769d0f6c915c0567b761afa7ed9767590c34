@@ -1,0 +1,31 @@
+
+W	java:S110/"=This class has 11 parents which is greater than 5 authorized.(èÜÒ†ûÿÿÿÿ
+U
+java:S1155ö">Use isEmpty() to check whether the collection is empty or not.(¯Šà—
+U
+java:S1155Ä">Use isEmpty() to check whether the collection is empty or not.(ïâúî
+>
+java:S1604e"(Make this anonymous inner class a lambda(Î×ÿÃ
+?
+java:S1604¸"(Make this anonymous inner class a lambda(™øÇæ
+D
+java:S1604Î"(Make this anonymous inner class a lambda(ş™¹Ãıÿÿÿÿ
+>
+java:S1604÷"(Make this anonymous inner class a lambda(Å¾ôL
+o
+java:S1450F"YRemove the "errMsgView" field and declare it as a local variable in the relevant methods.(Ã­¡û
+
+java:S1186ƒ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒÌ­şÿÿÿÿ
+
+java:S1186ˆ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Í¯½Ùùÿÿÿÿ
+O
+java:S2864y"4Iterate over the "entrySet" instead of the "keySet".(Íí’’ıÿÿÿÿ
+R	java:S125"<This block of commented-out lines of code should be removed.(ÅÍ¨
+˜
+java:S1186š"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(á¬‡İ
+˜
+java:S1186Ÿ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Œğ£Â
+R	java:S125Ÿ"<This block of commented-out lines of code should be removed.(ãâá÷
+W	java:S125£"<This block of commented-out lines of code should be removed.(Ù·æëşÿÿÿÿ
+˜
+java:S1186®"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úÑ¯¤

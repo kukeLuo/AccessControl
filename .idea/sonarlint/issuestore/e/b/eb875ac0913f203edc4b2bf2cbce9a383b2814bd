@@ -1,0 +1,25 @@
+
+E
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ
+K
+java:S1128!"0Remove this unused import 'retrofit2.http.Part'.(Ì—’Áÿÿÿÿÿ
+K
+java:S1128"0Remove this unused import 'org.json.JSONObject'.(œÖ´üşÿÿÿÿ
+U
+java:S1128":Remove this unused import 'retrofit2.http.FormUrlEncoded'.(îÙÂüÿÿÿÿ
+J
+java:S37409"/Provide the parametrized type for this generic.(‹‘»Óıÿÿÿÿ
+K
+java:S1128"0Remove this unused import 'okhttp3.RequestBody'.(ıÂÂöûÿÿÿÿ
+J
+java:S1128"4Remove this unused import 'retrofit2.http.FieldMap'.(ô ¶
+P
+java:S1128"5Remove this unused import 'retrofit2.http.Multipart'.(ù«÷åşÿÿÿÿ
+?
+java:S1128")Remove this unused import 'java.io.File'.(†Ğ¥Å
+X
+java:S1128"=Remove this unused import 'com.brc.acctrl.bean.BaseFileInfo'.(´ûğ¯øÿÿÿÿ
+J
+java:S3740O"/Provide the parametrized type for this generic.(àæÏïşÿÿÿÿ
+N
+java:S1128""3Remove this unused import 'retrofit2.http.PartMap'.(ôªšûÿÿÿÿ

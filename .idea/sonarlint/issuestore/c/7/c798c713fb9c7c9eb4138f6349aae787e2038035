@@ -1,0 +1,28 @@
+
+N
+java:S1197"8Move the array designator from the variable to the type.(ö­é1
+T
+java:S21682"9Remove this dangerous instance of double-checked locking.(æ âßüÿÿÿÿ
+O
+java:S1197¯"8Move the array designator from the variable to the type.(ğ¥‰Ú
+f
+java:S3358V"DExtract this nested ternary operation into an independent statement.(˜åøÿÿÿÿ8šÄãÈá.
+?	java:S108·")Either remove or fill this block of code.(ı¦šÖ
+N
+java:S2589ë"7Remove this expression which always evaluates to "true"(¥¾òæ
+K
+java:S1068$"0Remove this unused "PROTOCOL_SSL" private field.(ÓÁğœùÿÿÿÿ
+B
+java:S1068(",Remove this unused "PASSWORD" private field.(ÇÏ±‰
+V	java:S125Y"<This block of commented-out lines of code should be removed.(–¾÷£øÿÿÿÿ
+G
+java:S1068*",Remove this unused "mContext" private field.(»úÅ¾øÿÿÿÿ
+?	java:S108À")Either remove or fill this block of code.(ı¦šÖ
+H
+java:S1068 "2Remove this unused "mAndroidClient" private field.(ÖÈô
+?
+java:S1068&")Remove this unused "COLON" private field.(“Ø·é
+H
+java:S1068'"-Remove this unused "USER_NAME" private field.(È‰”†üÿÿÿÿ
+F
+java:S1068#"0Remove this unused "PROTOCOL_TCP" private field.(Ä¾Ñ

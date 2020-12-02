@@ -1,0 +1,37 @@
+
+—
+java:S1186ƒ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¦æ—&
+—
+java:S1186Y"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ğ«Ôƒ
+
+java:S1186‡"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(©íÂÿÿÿÿÿ
+>
+java:S1604o"(Make this anonymous inner class a lambda(¹Æü¸
+D
+java:S1185"(Remove this method to simply inherit it.(Ğô´·ùÿÿÿÿ
+<	java:S1316""Add a default case to this switch.(ıŞ³‹ùÿÿÿÿ
+M
+java:S2696Ù"6Make the enclosing method "static" or remove this set.(¹éóÌ
+R
+java:S2696„"6Make the enclosing method "static" or remove this set.(â ¡½ÿÿÿÿÿ
+Z
+java:S3398Ñ">Move this method into the anonymous class declared at line 51.(è÷øÂûÿÿÿÿ
+U
+java:S1155¸">Use isEmpty() to check whether the collection is empty or not.(ÊüÁ¸
+M
+java:S2696ù"6Make the enclosing method "static" or remove this set.(‚°ÓÄ
+=
+java:S1604Q"(Make this anonymous inner class a lambda(Èé¢
+R
+java:S2696ø"6Make the enclosing method "static" or remove this set.(ÂÁÂ ÿÿÿÿÿ
+u
+java:S2293¦"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ìº”üøÿÿÿÿ
+R	java:S110'"=This class has 11 parents which is greater than 5 authorized.(Ø»Á
+f
+java:S13016"KReplace this "switch" statement by "if" statements to increase readability.(ıŞ³‹ùÿÿÿÿ
+R
+java:S2696‹"6Make the enclosing method "static" or remove this set.(â ¡½ÿÿÿÿÿ
+F
+java:S1066Ë"/Merge this if statement with the enclosing one.(¹Üï˜
+œ
+java:S1186g"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úƒÚÓûÿÿÿÿ

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/tv_err"
+        style="@style/style_network_err"
+        tools:text="2019/12/03 12:12" />
+
+    <TextView
+        android:id="@+id/tv_datetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20px"
+        android:layout_marginRight="@dimen/dimen_time_margin_right"
+        android:gravity="right"
+        android:textColor="#DAFFFFFF"
+        android:textSize="24px"
+        tools:text="2019/12/03 12:12" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_layout_margin"
+        android:layout_marginTop="100px">
+
+        <ImageView
+            android:id="@+id/icon_brc"
+            android:layout_width="266px"
+            android:layout_height="44px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30px"
+            android:src="@drawable/icon_brc" />
+
+        <TextView
+            android:id="@+id/tv_info_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20px"
+            android:layout_toLeftOf="@id/icon_brc"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-light"
+            android:singleLine="true"
+            android:textColor="@color/color_white"
+            android:textSize="56px"
+            tools:text="互联网信息中心" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_info_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_layout_margin"
+        android:layout_marginTop="200px"
+        android:fontFamily="sans-serif-light"
+        android:singleLine="true"
+        android:textColor="@color/color_white"
+        android:textSize="36px"
+        tools:text="智能研发部" />
+
+    <FrameLayout
+        android:id="@+id/layout_room_status"
+        android:layout_width="match_parent"
+        android:layout_height="560px"
+        android:layout_marginTop="@dimen/dimen_margintop_scan">
+
+        <include layout="@layout/layout_meeting_detail" />
+
+        <include
+            layout="@layout/layout_meeting_none"
+            android:visibility="gone" />
+
+        <include
+            layout="@layout/layout_meeting_error"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <com.brc.acctrl.view.MeetingInfoView
+        android:id="@+id/layout_meeting_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_room_status"
+        android:layout_marginLeft="@dimen/dimen_layout_margin"
+        android:layout_marginTop="20px"
+        android:layout_marginRight="@dimen/dimen_layout_margin"
+        android:visibility="gone" />
+
+    <com.brc.acctrl.view.MeetingInfoView
+        android:id="@+id/layout_meeting_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_meeting_1"
+        android:layout_marginLeft="@dimen/dimen_layout_margin"
+        android:layout_marginTop="28px"
+        android:layout_marginRight="@dimen/dimen_layout_margin"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_click_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="40px"
+        android:layout_marginBottom="12px"
+        android:drawableTop="@drawable/icon_enter_pwd"
+        android:drawablePadding="6px"
+        android:text="@string/str_setting_pwd_title"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/dimen_office_info_textsize" />
+
+    <TextView
+        android:id="@+id/tv_info_descmore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_layout_margin"
+        android:layout_marginTop="1208px"
+        android:drawableLeft="@drawable/icon_group_left"
+        android:drawableRight="@drawable/icon_group_right"
+        android:drawablePadding="16px"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/dimen_office_info_textsize"
+        android:visibility="visible"
+        tools:text="互联网信息中心" />
+
+    <ImageView
+        android:id="@+id/img_setting"
+        style="@style/style_setting" />
+</RelativeLayout>

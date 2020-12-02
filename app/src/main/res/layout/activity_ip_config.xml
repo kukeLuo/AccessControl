@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:id="@+id/layout_head"
+        android:layout_width="match_parent"
+        android:layout_height="180px"
+        android:background="#152338">
+
+        <ImageView
+            android:id="@+id/img_back"
+            style="@style/style_top_back"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/str_title_ip"
+            android:textColor="@color/color_white"
+            android:textSize="48px"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="40px"
+            android:text="@string/str_save"
+            android:textColor="@color/color_white"
+            android:textSize="34px"/>
+    </RelativeLayout>
+
+    <com.brc.acctrl.view.CommonEditIPView
+        android:id="@+id/view_ip_dynamic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_layout_margin"
+        android:layout_marginRight="@dimen/dimen_layout_margin"
+        app:tagIPTitle="@string/str_ip_dynamic"
+        app:tagShowChecked="true"/>
+
+    <com.brc.acctrl.view.CommonEditIPView
+        android:id="@+id/view_ip_static"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_layout_margin"
+        android:layout_marginRight="@dimen/dimen_layout_margin"
+        app:tagIPTitle="@string/str_ip_static"
+        app:tagShowChecked="true"
+        app:tagShowIP="false"/>
+
+    <com.brc.acctrl.view.CommonEditIPView
+        android:id="@+id/view_ip_config"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_layout_margin"
+        android:layout_marginRight="@dimen/dimen_layout_margin"
+        app:tagIPTitle="@string/str_ip_config_manual"/>
+
+    <com.brc.acctrl.view.CommonEditIPView
+        android:id="@+id/view_ip_gateway"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_layout_margin"
+        android:layout_marginRight="@dimen/dimen_layout_margin"
+        app:tagIPTitle="@string/str_ip_config_gateway"/>
+
+    <com.brc.acctrl.view.CommonEditIPView
+        android:id="@+id/view_ip_mask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_layout_margin"
+        android:layout_marginRight="@dimen/dimen_layout_margin"
+        app:tagIPTitle="@string/str_ip_config_mask"/>
+</LinearLayout>

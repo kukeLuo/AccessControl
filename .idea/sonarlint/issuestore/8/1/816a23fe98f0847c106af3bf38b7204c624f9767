@@ -1,0 +1,26 @@
+
+N
+java:S1128"3Remove this unused import 'android.text.TextUtils'.(û˜½Õøÿÿÿÿ
+X
+java:S1128
+"=Remove this unused import 'com.brc.acctrl.bean.BaseFileInfo'.(´ûð¯øÿÿÿÿ
+K
+java:S1128"0Remove this unused import 'org.json.JSONObject'.(œÖ´üþÿÿÿÿ
+K
+java:S3740ƒ"/Provide the parametrized type for this generic.(ù–Èšûÿÿÿÿ
+U
+java:S1118&":Add a private constructor to hide the implicit public one.(Û‹â—ÿÿÿÿÿ
+
+java:S1186©"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ˆ”Šäûÿÿÿÿ
+K
+java:S3740œ"/Provide the parametrized type for this generic.(ù–Èšûÿÿÿÿ
+E
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ
+M
+java:S1128"2Remove this unused import 'io.reactivex.Observer'.(ÛËÿÅÿÿÿÿÿ
+I
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
+—
+java:S11864"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úÑ¯¤
+Y
+java:S1155:">Use isEmpty() to check whether the collection is empty or not.(´­á¹ûÿÿÿÿ

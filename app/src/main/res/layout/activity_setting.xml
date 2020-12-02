@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layout_head"
+        android:layout_width="match_parent"
+        android:layout_height="180px"
+        android:background="#152338">
+
+        <ImageView
+            android:id="@+id/img_back"
+            style="@style/style_top_back"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/str_setting_title"
+            android:textColor="@color/color_white"
+            android:textSize="48px"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0B0F14"
+        android:paddingLeft="@dimen/dimen_layout_margin"
+        android:paddingRight="@dimen/dimen_layout_margin"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@drawable/divider_linearlayout"
+            android:orientation="vertical"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/tv_about"
+                style="@style/style_text_next"
+                android:text="@string/str_setting_about" />
+
+
+            <TextView
+                android:id="@+id/tv_chg_pwd"
+                style="@style/style_text_next"
+                android:text="@string/str_setting_chg_pwd" />
+
+            <!--  <RelativeLayout
+                  android:id="@+id/layout_door_open"
+                  android:layout_width="match_parent"
+                  android:layout_height="100px"
+                  android:background="@drawable/bg_item_press">
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_centerVertical="true"
+                      android:text="@string/str_setting_door_open_time"
+                      android:textColor="@color/color_white"
+                      android:textSize="34px" />
+
+                  <TextView
+                      android:id="@+id/tv_door_open_time"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentRight="true"
+                      android:layout_centerVertical="true"
+                      android:drawableRight="@drawable/icon_arrow_right"
+                      android:drawablePadding="20px"
+                      android:gravity="center_vertical"
+                      android:text="@string/str_setting_door_open_time"
+                      android:textColor="@color/color_white"
+                      android:textSize="34px" />
+              </RelativeLayout>-->
+
+            <TextView
+                android:id="@+id/tv_update"
+                style="@style/style_text_next"
+                android:text="@string/str_setting_update" />
+
+            <!-- <RelativeLayout
+                 android:id="@+id/layout_livecheck"
+                 android:layout_width="match_parent"
+                 android:layout_height="100px"
+                 android:background="@drawable/bg_item_press">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_centerVertical="true"
+                     android:text="@string/str_setting_enable_livecheck"
+                     android:textColor="@color/color_white"
+                     android:textSize="34px" />
+
+                 <ImageView
+                     android:id="@+id/switch_livecheck"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentRight="true"
+                     android:layout_centerVertical="true"
+                     android:src="@drawable/img_switcher" />
+             </RelativeLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:id="@+id/layout_toplight"
+                    android:layout_width="match_parent"
+                    android:layout_height="100px"
+                    android:background="@drawable/bg_item_press">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/str_setting_enable_toplight"
+                        android:textColor="@color/color_white"
+                        android:textSize="34px" />
+
+                    <ImageView
+                        android:id="@+id/switch_openlight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/img_switcher" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layout_light_starttime"
+                    android:layout_width="match_parent"
+                    android:layout_height="100px"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/str_setting_enable_toplight_start"
+                        android:textColor="@color/color_white"
+                        android:textSize="34px" />
+
+                    <TextView
+                        android:id="@+id/tv_light_start_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:drawableRight="@drawable/icon_arrow_right"
+                        android:drawablePadding="20px"
+                        android:gravity="center"
+                        android:text="@string/str_setting_enable_toplight_start"
+                        android:textColor="#999999"
+                        android:textSize="34px" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layout_light_endtime"
+                    android:layout_width="match_parent"
+                    android:layout_height="100px"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/str_setting_enable_toplight_end"
+                        android:textColor="@color/color_white"
+                        android:textSize="34px" />
+
+                    <TextView
+                        android:id="@+id/tv_light_end_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:drawableRight="@drawable/icon_arrow_right"
+                        android:drawablePadding="20px"
+                        android:gravity="center"
+                        android:text="@string/str_setting_enable_toplight_start"
+                        android:textColor="#999999"
+                        android:textSize="34px" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_reset_face"
+                style="@style/style_text_next"
+                android:text="@string/str_setting_delete_all" />
+
+            <TextView
+                android:id="@+id/tv_reboot"
+                style="@style/style_text_next"
+                android:text="@string/str_setting_reboot" />
+
+            <TextView
+                android:id="@+id/tv_upload_fail"
+                style="@style/style_text_next"
+                android:text="@string/str_setting_upload_fail"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/layout_time_reboot"
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:background="@drawable/bg_item_press">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/str_setting_reboot_timely"
+                    android:textColor="@color/color_white"
+                    android:textSize="34px" />
+
+                <ImageView
+                    android:id="@+id/switch_reboot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/img_switcher" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

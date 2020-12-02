@@ -1,0 +1,84 @@
+
+X	java:S899"=Do something with the "boolean" value returned by "renameTo".(¬ã·êûÿÿÿÿ
+j
+java:S2259˜"NA "NullPointerException" could be thrown; "errJpgDirectory()" can return null.(¢º°†úÿÿÿÿ
+\	java:S112Š"FDefine and throw a dedicated exception instead of using a generic one.(’‡Ä¼
+O
+java:S1854Ö"8Remove this useless assignment to local variable "var2".(†ÕÕ«
+K
+java:S1144"4Remove this unused private "saveFacePicture" method.(“ıÛ
+j
+java:S2095Á"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(³ìóúÿÿÿÿ
+
+java:S1186Ä"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¸ÜÒÄøÿÿÿÿ
+˜
+java:S1186Ø"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×İŠÎ
+T
+java:S1197Ä"8Move the array designator from the variable to the type.(§ù§Öúÿÿÿÿ
+i
+java:S4042="NUse "java.nio.file.Files#delete" here for better messages on error conditions.(¼·áüÿÿÿÿ
+e
+java:S4042Š"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(·İÈ‡
+˜
+java:S1186É"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×İŠÎ
+V	java:S899ı";Do something with the "boolean" value returned by "delete".(Èí½ñüÿÿÿÿ
+N
+java:S1135ù"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+d
+java:S4042£"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(œ¤¶$
+N
+java:S1135ü"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+\
+java:S2147è"ECombine this catch with the one at line 357, which has the same body.(ï­£Ä
+
+java:S1186Ó"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¸ÜÒÄøÿÿÿÿ
+U
+java:S1135ğ"2Complete the task associated to this TODO comment.(ğÆÿøøÿÿÿÿ8Êâğİ.
+N
+java:S1135¤"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+N
+java:S1135æ"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+j
+java:S4042ı"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(Èí½ñüÿÿÿÿ
+i
+java:S4042]"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(¼·áüÿÿÿÿ
+˜
+java:S1186«"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úÑ¯¤
+˜
+java:S1186µ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úÑ¯¤
+V	java:S899½";Do something with the "boolean" value returned by "delete".(¦áã½şÿÿÿÿ
+i
+java:S2095‹"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(òó¿Êøÿÿÿÿ
+U	java:S899]";Do something with the "boolean" value returned by "delete".(¼·áüÿÿÿÿ
+\
+java:S2147¦"ECombine this catch with the one at line 163, which has the same body.(ï­£Ä
+T
+java:S2168,"9Remove this dangerous instance of double-checked locking.(äêÄüÿÿÿÿ
+N
+java:S1135§"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Q	java:S899Š";Do something with the "boolean" value returned by "delete".(·İÈ‡
+M
+java:S1144°"6Remove this unused private "saveBase64Picture" method.(ı…“¸
+P	java:S899£";Do something with the "boolean" value returned by "delete".(œ¤¶$
+T
+java:S1197â"8Move the array designator from the variable to the type.(§ù§Öúÿÿÿÿ
+n
+java:S3776“"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Ü—Ù¿øÿÿÿÿ
+n	java:S117ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è‹¤†8Êâğİ.
+\
+java:S2147û"ECombine this catch with the one at line 376, which has the same body.(ï­£Ä
+?	java:S108¾")Either remove or fill this block of code.(”ı¾
+]	java:S899æ";Do something with the "boolean" value returned by "delete".(æ‘‰üÿÿÿÿ8çÀşİ.
+f
+java:S2674"JCheck the return value of the "read" call to see how many bytes were read.(˜ôÓëùÿÿÿÿ
+@
+java:S1481Ö")Remove this unused "var2" local variable.(†ÕÕ«
+U	java:S899=";Do something with the "boolean" value returned by "delete".(¼·áüÿÿÿÿ
+N
+java:S1135é"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+j
+java:S4042½"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(¦áã½şÿÿÿÿ
+q
+java:S4042æ"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(æ‘‰üÿÿÿÿ8çÀşİ.
+R
+java:S1066å"/Merge this if statement with the enclosing one.(™ô²şÿÿÿÿ8çÀşİ.

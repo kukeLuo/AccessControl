@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_camera"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <com.brc.acctrl.view.TexturePreviewView
+        android:id="@+id/preview_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextureView
+        android:id="@+id/texture_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <VideoView
+        android:id="@+id/videoview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/layout_scan_suc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="510px"
+            android:layout_height="170px"
+            android:background="@drawable/bg_meeting_reg_suc"
+            android:gravity="center_vertical"
+            android:paddingLeft="30px">
+
+            <ImageView
+                android:layout_width="118px"
+                android:layout_height="136px"
+                android:background="@drawable/icon_face_reg_suc_door" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40px"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/img_recognition_suc"
+                    android:drawablePadding="10px"
+                    android:text="@string/str_recognition_suc"
+                    android:textColor="@color/color_white"
+                    android:textSize="48px" />
+
+                <TextView
+                    android:id="@+id/tv_scan_suc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10px"
+                    android:drawablePadding="10px"
+                    tools:text="1111111"
+                    android:textColor="@color/color_white"
+                    android:textSize="38px" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_scan_err"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="510px"
+            android:layout_height="170px"
+            android:background="@drawable/bg_meeting_reg_err"
+            android:gravity="center_vertical"
+            android:paddingLeft="30px">
+
+            <ImageView
+                android:layout_width="118px"
+                android:layout_height="136px"
+                android:background="@drawable/icon_face_reg_err_door" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40px"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/img_recognition_err"
+                    android:drawablePadding="10px"
+                    android:lineSpacingMultiplier="1.2"
+                    android:text="@string/str_face_reg_err_door"
+                    android:textColor="@color/color_white"
+                    android:textSize="48px" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10px"
+                    android:drawablePadding="10px"
+                    android:text="@string/str_retry"
+                    android:textColor="@color/color_white"
+                    android:textSize="38px" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <include layout="@layout/layout_pwd_input" />
+</RelativeLayout>

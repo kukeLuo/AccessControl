@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_pwd_card_suc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_face_suc_ac"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:visibility="gone"
+    >
+
+    <LinearLayout
+        android:layout_width="510px"
+        android:layout_height="170px"
+        android:background="@drawable/bg_pwd_input_suc"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:layout_marginLeft="72px"
+            android:background="@drawable/icon_office_pwd_suc" />
+
+        <TextView
+            android:id="@+id/tv_enter_suc_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32px"
+            android:gravity="center"
+            android:text="@string/str_door_open_pwd"
+            android:textColor="@color/color_white"
+            android:textSize="34px" />
+    </LinearLayout>
+</LinearLayout>

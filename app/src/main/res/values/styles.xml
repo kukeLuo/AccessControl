@@ -1,0 +1,133 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="style_text_next">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">100px</item>
+        <item name="android:background">@drawable/bg_item_press</item>
+        <item name="android:drawableRight">@drawable/icon_arrow_right</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">34px</item>
+        <item name="android:textColor">@color/color_white</item>
+    </style>
+
+    <style name="style_btn_confirm">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">88px</item>
+        <item name="android:layout_marginTop">944px</item>
+        <item name="android:background">@drawable/bg_btn_blue_round</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textSize">40px</item>
+    </style>
+
+    <style name="style_btn_cancel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">88px</item>
+        <item name="android:layout_marginTop">50px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">50px</item>
+        <item name="android:paddingRight">50px</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textSize">40px</item>
+    </style>
+
+    <style name="style_text_mode">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">88px</item>
+        <item name="android:layout_marginLeft">@dimen/dimen_layout_margin</item>
+        <item name="android:layout_marginTop">30px</item>
+        <item name="android:layout_marginRight">@dimen/dimen_layout_margin</item>
+        <item name="android:background">@drawable/bg_btn_mode</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textSize">30px</item>
+    </style>
+
+    <style name="style_ip_edit">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLength">3</item>
+        <item name="android:textSize">34px</item>
+        <item name="android:background">@null</item>
+        <item name="android:inputType">number</item>
+        <item name="android:hint">0</item>
+        <item name="android:textColor">@drawable/text_color_ip_edit</item>
+    </style>
+
+    <style name="style_ip_text_point">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@drawable/text_color_ip_edit</item>
+        <item name="android:text">@string/str_point</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">34px</item>
+    </style>
+
+    <style name="style_top_back">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20px</item>
+        <item name="android:padding">40px</item>
+        <item name="android:src">@drawable/icon_arrow_left_white</item>
+    </style>
+
+    <style name="style_text_server_type_mode">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">16px</item>
+        <item name="android:paddingBottom">16px</item>
+        <item name="android:paddingLeft">32px</item>
+        <item name="android:paddingRight">32px</item>
+        <item name="android:background">@drawable/bg_btn_mode</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textSize">30px</item>
+    </style>
+
+    <style name="style_setting">
+        <item name="android:layout_width">100px</item>
+        <item name="android:layout_height">100px</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="style_network_err">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">24px</item>
+        <item name="android:layout_marginTop">20px</item>
+        <item name="android:drawableLeft">@drawable/icon_error</item>
+        <item name="android:drawablePadding">10px</item>
+        <item name="android:textColor">#FFAA0000</item>
+        <item name="android:textSize">24px</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="style_door_open_text">
+        <item name="android:layout_width">72px</item>
+        <item name="android:layout_height">72px</item>
+        <item name="android:background">@drawable/bg_btn_mode</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">30px</item>
+    </style>
+
+    <style name="CustomDialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CommonEditItem">
+        <attr name="tagTitle" format="string"/>
+        <attr name="tagHint" format="string"/>
+        <attr name="tagLength" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="CommonIPItem">
+        <attr name="tagIPTitle" format="string"/>
+        <attr name="tagShowChecked" format="boolean"/>
+        <attr name="tagShowIP" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="IndexBar">
+        <attr name="letterSize" format="dimension" />
+        <attr name="letterColor" format="color" />
+        <attr name="focusLetterColor" format="color" />
+        <attr name="letterSpacingExtra" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="ThresholdSeekBar">
+        <attr name="textsize" format="dimension" />
+        <attr name="textcolor" format="color" />
+        <attr name="img" format="reference" />
+    </declare-styleable>
+</resources>

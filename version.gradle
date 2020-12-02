@@ -1,0 +1,27 @@
+ext {
+    // Version of compile sdk
+    COMPILE_SDK_VERSION = 27
+    // Version of Android build tool
+    BUILD_TOOLS_VERSION = "27.0.3"
+    // Min version of Android sdk
+    MIN_SDK_VERSION = 19
+    // Version of target Android sdk
+    TARGET_SDK_VERSION = 26
+
+    APPCOMPAT_V7_VERSION = '27.1.1'
+    RECYCLERVIEW_V7_VERSION = '27.1.1'
+    CARDVIEW_V7_VERSION = '27.1.1'
+    DESIGN_VERSION = '27.1.1'
+    CONSTRAINT_LAYOUT_VERSION = '1.0.1'
+    RX_ANDROID_VERSION = '2.0.2'
+    RX_JAVA_VERSION = '2.2.12'
+    RETROFIT_VERSION = '2.4.0'
+    GLIDE_VERSION = '4.8.0'
+    BUTTER_KNIFE_VERSION = '8.4.0'
+
+    EVENTBUS_VERSION = '3.1.1'
+    AROUTER_FASTJSON_VERSION = '1.2.9'
+    AROUTER_API_VERSION = '1.3.1'
+    AROUTER_COMPILER_VERSION = '1.1.4'
+    ROOM_VERSION = '1.1.1'
+}

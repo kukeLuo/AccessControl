@@ -1,0 +1,51 @@
+
+~
+java:S1104#"cMake dayOpenLightMinuteStart a static final constant or non-public and provide accessors if needed.(ûœş€ÿÿÿÿÿ
+s
+java:S3008"]Rename this field "THRESH_DETECT_FACE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Í ñ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(œË¶Ã
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¸ì³şÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(œ¢ªòÿÿÿÿÿ
+N
+java:S1128"3Remove this unused import 'android.text.TextUtils'.(û˜½Õøÿÿÿÿ
+N
+java:S1444"8Make this "public static THRESH_DETECT_FACE" field final(“Í ñ
+S
+java:S1444""8Make this "public static shouldShowTopLight" field final(ãÖˆ€ùÿÿÿÿ
+y
+java:S1104""^Make shouldShowTopLight a static final constant or non-public and provide accessors if needed.(ãÖˆ€ùÿÿÿÿ
+w
+java:S1104$"aMake dayOpenLightMinuteEnd a static final constant or non-public and provide accessors if needed.(õË‹
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Î„øùÿÿÿÿ
+[
+java:S1124	"EReorder the modifiers to comply with the Java Language Specification.(–³‰å
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(©ÈÆª
+U
+java:S1444 ":Make this "public static hasRegisterServerSuc" field final(Æáîüÿÿÿÿ
+p
+java:S1104"\Make backToSplashPage a static final constant or non-public and provide accessors if needed.(¡¼
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(†®ˆóøÿÿÿÿ
+X
+java:S1444#"=Make this "public static dayOpenLightMinuteStart" field final(ûœş€ÿÿÿÿÿ
+Q
+java:S1444$";Make this "public static dayOpenLightMinuteEnd" field final(õË‹
+{
+java:S1104 "`Make hasRegisterServerSuc a static final constant or non-public and provide accessors if needed.(Æáîüÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(“³±ûÿÿÿÿ
+V	java:S125
+"<This block of commented-out lines of code should be removed.(‡“÷…øÿÿÿÿ
+t
+java:S1104"^Make THRESH_DETECT_FACE a static final constant or non-public and provide accessors if needed.(“Í ñ
+H
+java:S1128"-Remove this unused import 'org.w3c.dom.Text'.(¶Äè‹şÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ë™…«ıÿÿÿÿ
+J
+java:S1444"6Make this "public static backToSplashPage" field final(¡¼

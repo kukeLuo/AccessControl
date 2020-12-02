@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    >
+
+    <RelativeLayout
+        android:id="@+id/layout_head"
+        android:layout_width="match_parent"
+        android:layout_height="180px"
+        android:background="#152338">
+
+        <ImageView
+            android:id="@+id/img_back"
+            style="@style/style_top_back"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/str_setting_about"
+            android:textColor="@color/color_white"
+            android:textSize="48px"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="40px"
+            android:text="@string/str_save"
+            android:textColor="@color/color_white"
+            android:textSize="34px"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_head"
+        android:background="#0E1622"
+        android:divider="@drawable/divider_linearlayout"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dimen_layout_margin"
+        android:paddingTop="20px"
+        android:paddingRight="@dimen/dimen_layout_margin"
+        android:showDividers="middle">
+
+        <com.brc.acctrl.view.CommonEditView
+            android:id="@+id/layout_name"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            app:tagHint="@string/str_name_hint"
+            app:tagTitle="@string/str_name"/>
+
+        <com.brc.acctrl.view.CommonEditView
+            android:id="@+id/layout_remark"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            app:tagHint="@string/str_remark_hint"
+            app:tagTitle="@string/str_remark"/>
+
+        <com.brc.acctrl.view.CommonEditView
+            android:id="@+id/layout_mac"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            app:tagTitle="@string/str_machine_mac_addr"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

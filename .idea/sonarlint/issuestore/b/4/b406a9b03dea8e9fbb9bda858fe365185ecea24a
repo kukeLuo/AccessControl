@@ -1,0 +1,5 @@
+
+W	java:S110"=This class has 16 parents which is greater than 5 authorized.(‚´ˆäýÿÿÿÿ
+V	java:S1257"<This block of commented-out lines of code should be removed.(„ñŒÄúÿÿÿÿ
+Q
+java:S1144B";Remove this unused private "checkSingleFaceQuality" method.(…‘…Ü

@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layout_head"
+        android:layout_width="match_parent"
+        android:layout_height="180px"
+        android:background="#152338">
+
+        <ImageView
+            android:id="@+id/img_back"
+            style="@style/style_top_back"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/str_configuration"
+            android:textColor="@color/color_white"
+            android:textSize="48px"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0B0F14"
+        android:paddingLeft="@dimen/dimen_layout_margin"
+        android:paddingRight="@dimen/dimen_layout_margin"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@drawable/divider_linearlayout"
+            android:orientation="vertical"
+            android:showDividers="middle">
+
+
+
+            <TextView
+                android:id="@+id/tv_network"
+                style="@style/style_text_next"
+                android:text="@string/str_setting_network_config" />
+
+
+
+            <RelativeLayout
+                android:id="@+id/layout_door_open"
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:background="@drawable/bg_item_press">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/str_setting_door_open_time"
+                    android:textColor="@color/color_white"
+                    android:textSize="34px" />
+
+                <TextView
+                    android:id="@+id/tv_door_open_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:drawableRight="@drawable/icon_arrow_right"
+                    android:drawablePadding="20px"
+                    android:gravity="center_vertical"
+                    android:text="@string/str_setting_door_open_time"
+                    android:textColor="@color/color_white"
+                    android:textSize="34px" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/layout_livecheck"
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:background="@drawable/bg_item_press">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/str_setting_enable_livecheck"
+                    android:textColor="@color/color_white"
+                    android:textSize="34px" />
+
+                <ImageView
+                    android:id="@+id/switch_livecheck"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/img_switcher" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_display_name"
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:background="@drawable/bg_item_press">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/str_setting_display_name"
+                    android:textColor="@color/color_white"
+                    android:textSize="34px" />
+
+                <ImageView
+                    android:id="@+id/switch_display_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/img_switcher" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:id="@+id/layout_toplight"
+                    android:layout_width="match_parent"
+                    android:layout_height="100px"
+                    android:background="@drawable/bg_item_press">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/str_setting_enable_toplight"
+                        android:textColor="@color/color_white"
+                        android:textSize="34px" />
+
+                    <ImageView
+                        android:id="@+id/switch_openlight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/img_switcher" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layout_light_starttime"
+                    android:layout_width="match_parent"
+                    android:layout_height="100px"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/str_setting_enable_toplight_start"
+                        android:textColor="@color/color_white"
+                        android:textSize="34px" />
+
+                    <TextView
+                        android:id="@+id/tv_light_start_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:drawableRight="@drawable/icon_arrow_right"
+                        android:drawablePadding="20px"
+                        android:gravity="center"
+                        android:text="@string/str_setting_enable_toplight_start"
+                        android:textColor="#999999"
+                        android:textSize="34px" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layout_light_endtime"
+                    android:layout_width="match_parent"
+                    android:layout_height="100px"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/str_setting_enable_toplight_end"
+                        android:textColor="@color/color_white"
+                        android:textSize="34px" />
+
+                    <TextView
+                        android:id="@+id/tv_light_end_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:drawableRight="@drawable/icon_arrow_right"
+                        android:drawablePadding="20px"
+                        android:gravity="center"
+                        android:text="@string/str_setting_enable_toplight_start"
+                        android:textColor="#999999"
+                        android:textSize="34px" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:background="@drawable/bg_item_press">
+            <TextView
+                android:id="@+id/tv_threshold"
+                style="@style/style_text_next"
+                android:text="@string/str_setting_threshold" />
+                <TextView
+                    android:id="@+id/tv_threshold_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:drawableRight="@drawable/icon_arrow_right"
+                    android:drawablePadding="20px"
+                    android:gravity="center_vertical"
+                    android:text="@string/str_setting_threshold"
+                    android:textColor="@color/color_white"
+                    android:textSize="34px" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:background="@drawable/bg_item_press">
+                <TextView
+                    android:id="@+id/tv_voice"
+                    style="@style/style_text_next"
+                    android:text="@string/str_setting_voice" />
+                <TextView
+                    android:id="@+id/tv_voice_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:drawableRight="@drawable/icon_arrow_right"
+                    android:drawablePadding="20px"
+                    android:gravity="center_vertical"
+                    android:text="@string/str_setting_voice"
+                    android:textColor="@color/color_white"
+                    android:textSize="34px" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="48dp"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="36dp"
+                    android:text="@string/str_setting_fill_in_light"
+                    android:textColor="@color/color_white"
+                    android:textSize="34sp" />
+
+                <RadioGroup
+                    android:id="@+id/rg_fill_light"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="46dp"
+                    android:orientation="horizontal">
+
+
+                        <RadioButton
+                            android:id="@+id/rb_regular_opening"
+                            android:layout_width="190dp"
+                            android:layout_height="58dp"
+                            android:button="@drawable/drawable_rb_select"
+                            android:drawablePadding="2px"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text="@string/str_setting_regular_opening"
+                            android:textColor="@drawable/bg_slc_fill_in_light"
+                            android:textSize="34sp" />
+                         <RadioButton
+                            android:id="@+id/rb_timing_identification_on"
+                            android:layout_width="224dp"
+                            android:layout_height="58dp"
+                            android:button="@drawable/drawable_rb_select"
+                            android:drawablePadding="4px"
+                            android:layout_marginLeft="74dp"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text="@string/str_setting_timing_identification_on"
+                            android:textColor="@drawable/bg_slc_fill_in_light"
+                            android:textSize="34sp" />
+                        <RadioButton
+                            android:id="@+id/rb_long_guan"
+                            android:layout_width="122dp"
+                            android:layout_height="58dp"
+                            android:button="@drawable/drawable_rb_select"
+                            android:drawablePadding="4px"
+                            android:layout_marginLeft="74dp"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text="@string/str_setting_long_guan"
+                            android:textColor="@drawable/bg_slc_fill_in_light"
+                            android:textSize="34sp" />
+                </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30px"
+                    android:background="@drawable/divider_linearlayout" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_light_starttime"
+                    android:layout_width="match_parent"
+                    android:layout_height="100px"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/str_setting_enable_toplight_start"
+                        android:textColor="@color/color_white"
+                        android:textSize="34px" />
+
+                    <TextView
+                        android:id="@+id/tv_start_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:drawableRight="@drawable/icon_arrow_right"
+                        android:drawablePadding="20px"
+                        android:gravity="center"
+                        android:text="@string/str_setting_enable_toplight_start"
+                        android:textColor="#999999"
+                        android:textSize="34px" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_light_endtime"
+                    android:layout_width="match_parent"
+                    android:layout_height="100px"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/str_setting_enable_toplight_end"
+                        android:textColor="@color/color_white"
+                        android:textSize="34px" />
+
+                    <TextView
+                        android:id="@+id/tv_end_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:drawableRight="@drawable/icon_arrow_right"
+                        android:drawablePadding="20px"
+                        android:gravity="center"
+                        android:text="@string/str_setting_enable_toplight_start"
+                        android:textColor="#999999"
+                        android:textSize="34px" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
